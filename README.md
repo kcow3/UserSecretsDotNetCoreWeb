@@ -21,4 +21,7 @@ Secrets in the startup can be directly accessed like this:
 
 Secrets in code can be accessed by injecting `IOptions<T>` where T is your mapping class for your secret.
 
-
+## Useful resources
+* [https://www.twilio.com/blog/2018/05/user-secrets-in-a-net-core-web-app.html](https://www.twilio.com/blog/2018/05/user-secrets-in-a-net-core-web-app.html)
+* [https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-3.1&tabs=windows](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-3.1&tabs=windows)
+* [https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1)
